@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Login() {
   return (
     <>
-        <div className="">
+        <div>
             <form action="">
                 <div className="mt-4">
                     <input type='email' placeholder='Email address' className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-bluee-600" />

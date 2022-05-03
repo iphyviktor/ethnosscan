@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'login-background': "url('/images/login-bg.jpg')",
+        'login-background': "url('/images/login-bg.png')",
+      },
+      fontFamily: {
+        Nunito: ["Nunito", "sans"],
+        Roboto: ["Roboto", "cursive"]
       }
     },
   },
