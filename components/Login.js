@@ -13,7 +13,7 @@ function Login() {
                 </div>
                 <div className="flex items-center justify-between mt-4">
                     <button type="submit" className='px-6 py-2 text-white bg-red-500 rounded-md hover:bg-red-600 transition ease-out duration-500'>Login</button>
-                    <Link href='#'>
+                    <Link href='/account/resetpassword'>
                         <a className='text-sm hover:underline text-red-400'>Forget Password?</a>
                     </Link>
                 </div>
