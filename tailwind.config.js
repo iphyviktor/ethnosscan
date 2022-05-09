@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         Nunito: ["Nunito", "sans"],
         Roboto: ["Roboto", "cursive"]
+      },
+      colors:{
+        'bg-red': '#EF2020',
       }
     },
   },
