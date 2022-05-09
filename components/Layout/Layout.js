@@ -1,7 +1,10 @@
+import Link from 'next/link'
+import TopNavbar from "./TopNavbar"
+
 const Layout = ({ children }) => {
     return(
         <>
-            {/* <h1>Test</h1> */}
+            <TopNavbar />
             <div>{children}</div>
             {/* Tesing footer */}
         </>
@@ -9,3 +12,4 @@ const Layout = ({ children }) => {
 }
 
 export default Layout
+
