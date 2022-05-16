@@ -1,12 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
+import Link from 'next/link'
 
 function SidebarMenu() {
     const [open, setOpen] = useState(true);
     const Menus = [
         {title: "Dashboard", src: "dashboard"},
         {title: "Scans", src: "scans"},
-        {title: "New Scan", src: "new-scan" },
+        {title: "New Scan", src: "/scans" },
         {title: "Settings", src: "settings", gap: true},
     ]
   return (

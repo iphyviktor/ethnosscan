@@ -1,6 +1,7 @@
 import React from 'react'
+import { Bar } from 'react-chartjs-2'
 
-function ScanActivity() {
+function VulnChart(chartData) {
   return (
     <div className={`bg-white rounded overflow-hidden shadow-xl hover:drop-shadow-xl`}>
       {/* flex */}
@@ -43,4 +44,4 @@ function ScanActivity() {
   )
 }
 
-export default ScanActivity
+export default VulnChart
